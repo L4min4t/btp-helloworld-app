@@ -1,0 +1,16 @@
+<mvc:View controllerName="sap.btp.helloworldui5.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <FlexBox direction="Row" alignItems="Center" class="sapUiTinyMarginBottom" id="Flexbox0" >
+                <Text text="Accept the button" class="sapUiTinyMarginEnd" id="Text0"/>
+                <Button xmlns="sap.m" text="Click the Button" id="Button0" press=".onPress"/>
+            </FlexBox>
+
+            <Image src="https://media.tenor.com/yLeYQw-s1xAAAAAM/cat-eating.gif" alt="GIF Image" id="gifImage" />
+            <Image src="https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif" alt="GIF Image" id="gifImage1" />
+
+        </content>
+    </Page>
+</mvc:View>
